@@ -5,15 +5,15 @@
 
     <title>V1LL0 Projects Gallery</title>
     <generator uri="https://github.com/jekyll/jekyll">Jekyll v2.4.0</generator>
-		<icon>http://0.0.0.0:4000/apple-touch-icon-precomposed.png</icon>
+		<icon>https://V1LL0.github.io/apple-touch-icon-precomposed.png</icon>
     <subtitle>The purpose of this page is to show to you the projects in which i contributed.</subtitle>
-    <link href="http://0.0.0.0:4000/atom.xml" rel="self"/>
-    <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html"/>
-    <updated>2015-01-28T23:43:55+01:00</updated>
-    <id>http://0.0.0.0:4000/</id>
+    <link href="https://V1LL0.github.io/atom.xml" rel="self"/>
+    <link href="https://V1LL0.github.io/" rel="alternate" type="text/html"/>
+    <updated>2015-01-31T14:46:11+01:00</updated>
+    <id>https://V1LL0.github.io/</id>
     <author>
 			<name></name>
-			<uri>http://0.0.0.0:4000/</uri>
+			<uri>https://V1LL0.github.io/</uri>
 			
 		</author>
 
