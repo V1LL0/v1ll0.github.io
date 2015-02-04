@@ -1,1 +1,0 @@
-# BitCoin Miners Interactions Visualization 

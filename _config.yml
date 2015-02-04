@@ -5,7 +5,7 @@ description: The purpose of this page is to show to you the projects in which i 
 logo: # 120x120 px default image used for Twitter summary card
 teaser: fish.jpg # 400x250 px default teaser image used in image archive grid
 locale:
-url: https://V1LL0.github.io
+url: https://V1LL0.github.io #http://0.0.0.0:4000
 
 # Jekyll configuration
 
