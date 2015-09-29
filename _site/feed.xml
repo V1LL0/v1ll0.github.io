@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title></title>
+		<description>Portfolio</description>
+		<link>/</link>
+		<atom:link href="/" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>BitCoin Miners Interaction Visualization</title>
+				<description>&lt;h3 id=&quot;project-about-the-visualization-of-the-interactions-between-miners&quot;&gt;Project about the visualization of the interactions between miners.&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/informationvisualization/iv1.jpg&quot; alt=&quot;BitCoin background&quot; style=&quot;width:100%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a Project developed during my last year at Third University of Rome.
+The scope of the project is to Visualize the Miners interactions. (Miner - a particular user who collaborate in the building of bitcoin blockchain).&lt;/p&gt;
+
+&lt;p&gt;We chose to develope two types of Visualization, once for the Macro-interactions and once for Micro-interactions (interactions on a singe block of the blockchain).
+In the macro-interactions Visualization it’s possible to view the interactions between miners over the time.
+In particular it is possible to view miners that collaborated in the same blocks.
+So we can see the nodes as the miners and the links as the collaboration between two miners.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/informationvisualization/graph1.png&quot; alt=&quot;Macro Visualization&quot; style=&quot;width:100%;border:5px solid #2c3e50;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the micro-interactions Visualization instead, we can see a small number of blocks as the green nodes, the red nodes as the miners and a link between them if the miner mined the block.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/informationvisualization/graph2.png&quot; alt=&quot;Micro Visualization&quot; style=&quot;width:100%;border:5px solid #2c3e50;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Five filters have been developed to reduce the huge amount of informations.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/informationvisualization/filters.png&quot; alt=&quot;Filters&quot; style=&quot;width:100%;border:5px solid #2c3e50;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After installation, you can open the index.html (firefox recommended) that will show up two panels and after the setting of the filters you can push one of the button of the views to see your graph.&lt;/p&gt;
+
+&lt;h4 id=&quot;date&quot;&gt;Date&lt;/h4&gt;
+
+&lt;p&gt;October 2014&lt;/p&gt;
+
+&lt;h3 id=&quot;see-on-github&quot;&gt;See on GitHub&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/V1LL0/bitcoinVisualization&quot;&gt;https://github.com/V1LL0/bitcoinVisualization&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;authors-and-contributors&quot;&gt;Authors and Contributors&lt;/h3&gt;
+
+&lt;p&gt;This Project is developed by &lt;a href=&quot;https://github.com/V1LL0&quot;&gt;@V1LL0&lt;/a&gt; and &lt;a href=&quot;https://github.com/Pausa90&quot;&gt;@Pausa90&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;contacts&quot;&gt;Contacts&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#118;&amp;#046;&amp;#099;&amp;#101;&amp;#115;&amp;#116;&amp;#097;&amp;#114;&amp;#101;&amp;#108;&amp;#108;&amp;#105;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;&amp;#118;&amp;#046;&amp;#099;&amp;#101;&amp;#115;&amp;#116;&amp;#097;&amp;#114;&amp;#101;&amp;#108;&amp;#108;&amp;#105;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&lt;/a&gt;&lt;/p&gt;
+</description>
+				<pubDate>Wed, 01 Oct 2014 00:00:00 +0200</pubDate>
+				<link>/information%20visualization/2014/10/01/bitcoinminers.html</link>
+				<guid isPermaLink="true">/information%20visualization/2014/10/01/bitcoinminers.html</guid>
+			</item>
+		
+			<item>
+				<title>Big Data Project</title>
+				<description>&lt;h3 id=&quot;dna-barcodes-analysis&quot;&gt;DNA Barcodes analysis&lt;/h3&gt;
+
+&lt;p&gt;This is a project developed during the university course &lt;a href=&quot;http://www.dia.uniroma3.it/~torlone/bigdata/&quot;&gt;Big Data&lt;/a&gt;. The purpose of this project is to perform an analysis of DNA subsequences samples, named barcodes, with the aim to classify and predict the species bolonging from a specific genomic sequence. In particular we conducted the analysis basing on the concept of multi-locus, comparating the results with the past mono-locus research.&lt;/p&gt;
+
+&lt;p&gt;This work is based on the data stored in the &lt;a href=&quot;http://www.boldsystems.org/&quot;&gt;BOLD database&lt;/a&gt;. Specifically we considered species related to the families of plants and fungi.&lt;/p&gt;
+
+&lt;p&gt;The tool is realized by the combination of several components, developed by Bash Scripting and Python languages, along with a map-reduce step. To use it, put the data in a folder named “data” and start “fastaSplitter.sh” from a bash terminal.&lt;/p&gt;
+
+&lt;p&gt;More detailed information about the project can be found on &lt;a href=&quot;http://pausa90.github.io/assets/pdf/relazione_bold.pdf&quot;&gt;this paper&lt;/a&gt; (located in italian).&lt;/p&gt;
+
+&lt;h4 id=&quot;date&quot;&gt;Date&lt;/h4&gt;
+
+&lt;p&gt;July 2014&lt;/p&gt;
+
+&lt;h3 id=&quot;see-on-github&quot;&gt;See on GitHub&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Pausa90/BOLDProject&quot;&gt;https://github.com/Pausa90/BOLDProject&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;authors-and-contributors&quot;&gt;Authors and Contributors&lt;/h3&gt;
+
+&lt;p&gt;This Project is developed by &lt;a href=&quot;https://github.com/V1LL0&quot;&gt;@V1LL0&lt;/a&gt; and &lt;a href=&quot;https://github.com/Pausa90&quot;&gt;@Pausa90&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;contacts&quot;&gt;Contacts&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#118;&amp;#046;&amp;#099;&amp;#101;&amp;#115;&amp;#116;&amp;#097;&amp;#114;&amp;#101;&amp;#108;&amp;#108;&amp;#105;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;&amp;#118;&amp;#046;&amp;#099;&amp;#101;&amp;#115;&amp;#116;&amp;#097;&amp;#114;&amp;#101;&amp;#108;&amp;#108;&amp;#105;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&lt;/a&gt;&lt;/p&gt;
+</description>
+				<pubDate>Sat, 19 Jul 2014 00:00:00 +0200</pubDate>
+				<link>/big%20data/2014/07/19/bold.html</link>
+				<guid isPermaLink="true">/big%20data/2014/07/19/bold.html</guid>
+			</item>
+		
+			<item>
+				<title>Yelp Predictor</title>
+				<description>&lt;h3 id=&quot;project-about-the-building-and-the-execution-of-a-classificator&quot;&gt;Project about the building and the execution of a classificator&lt;/h3&gt;
+
+&lt;p&gt;This is a university project developed for a challenge held in the course Sistemi Intelligenti per Internet (Smart Systems for Internet). It was required the development of a tool that can predict the rate of a place given by a particular user, through the data provided by &lt;a href=&quot;http://www.yelp.com&quot;&gt;Yelp&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We decided to use a mixed approach between a user-based prediction and a item-based one.
+In particular we computed a linear combination of these two different predictions calculating the lambda starting from the neighboroods of the user and the item (for each item we computed how many users were in common with the current-item, and for the user we computed how many items were in common with the current-user).&lt;/p&gt;
+
+&lt;p&gt;More detailed information about the project request can be found it &lt;a href=&quot;https://sites.google.com/site/sistemiintelligentiperinternet/challenge-a-a-2013-2014&quot;&gt;here&lt;/a&gt;, while as regards the development see at this &lt;a href=&quot;http://pausa90.github.io/assets/pdf/presentazione_challenge.pdf&quot;&gt;link&lt;/a&gt; (both located in italian)&lt;/p&gt;
+
+&lt;h4 id=&quot;date&quot;&gt;Date&lt;/h4&gt;
+
+&lt;p&gt;January 2014&lt;/p&gt;
+
+&lt;h3 id=&quot;see-on-github&quot;&gt;See on GitHub&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Pausa90/ChallengeSII&quot;&gt;https://github.com/Pausa90/ChallengeSII&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;authors-and-contributors&quot;&gt;Authors and Contributors&lt;/h3&gt;
+
+&lt;p&gt;This Project is developed by &lt;a href=&quot;https://github.com/V1LL0&quot;&gt;@V1LL0&lt;/a&gt; and &lt;a href=&quot;https://github.com/Pausa90&quot;&gt;@Pausa90&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;contacts&quot;&gt;Contacts&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#118;&amp;#046;&amp;#099;&amp;#101;&amp;#115;&amp;#116;&amp;#097;&amp;#114;&amp;#101;&amp;#108;&amp;#108;&amp;#105;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;&amp;#118;&amp;#046;&amp;#099;&amp;#101;&amp;#115;&amp;#116;&amp;#097;&amp;#114;&amp;#101;&amp;#108;&amp;#108;&amp;#105;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&lt;/a&gt;&lt;/p&gt;
+</description>
+				<pubDate>Sun, 19 Jan 2014 00:00:00 +0100</pubDate>
+				<link>/machine%20learning/2014/01/19/yelppredictor.html</link>
+				<guid isPermaLink="true">/machine%20learning/2014/01/19/yelppredictor.html</guid>
+			</item>
+		
+			<item>
+				<title>Computational Graphic Project</title>
+				<description>&lt;h3 id=&quot;project-about-computational-graphic&quot;&gt;Project about computational graphic&lt;/h3&gt;
+
+&lt;p&gt;This project was about the building of some objects in a 3D environment called Palsm.js (&lt;a href=&quot;http://cvdlab.github.io/plasm.js/&quot;&gt;link&lt;/a&gt; and &lt;a href=&quot;https://github.com/cvdlab/plasm.js&quot;&gt;github&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;I chose to build a table, a hanger a chair, a car and a house with all these objects inside.
+The specifications was to create all objects designed by the same architect. I chose Le Corbusier.&lt;/p&gt;
+
+&lt;p&gt;The project can be seen at its own website &lt;a href=&quot;https://v1ll0.github.io/final_project_cg&quot;&gt;&lt;font color=&quot;red&quot;&gt;LeCorbusierProj&lt;/font&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Pay attention! With firefox the 3D visualization works well on site. But the zoom doesn’t work.
+In Chrome, instead, the 3D visualization doesn’t work on site. So you need to press the “copy-code-button”, then press the “go-to-plasmJS-button” and then paste the code in the code-area (just ctrl+v) and press the play-button.&lt;/p&gt;
+
+&lt;h3 id=&quot;screenshots&quot;&gt;Screenshots&lt;/h3&gt;
+
+&lt;table cellspacing=&quot;10&quot; cellpadding=&quot;10&quot;&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+			&lt;img src=&quot;/img/computationalgraphic/cg1.png&quot; alt=&quot;Mountain View&quot; style=&quot;height:250px;float:right;&quot; /&gt;
+		&lt;/td&gt;
+		&lt;td&gt;
+			&lt;img src=&quot;/img/computationalgraphic/cg3.png&quot; alt=&quot;Mountain View&quot; style=&quot;height:250px;&quot; /&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+
+	&lt;tr&gt;
+		&lt;td&gt;
+			&lt;img src=&quot;/img/computationalgraphic/cg2.png&quot; alt=&quot;Mountain View&quot; style=&quot;height:250px;float:right;&quot; /&gt;
+		&lt;/td&gt;
+		&lt;td&gt;
+			&lt;img src=&quot;/img/computationalgraphic/cg4.png&quot; alt=&quot;Mountain View&quot; style=&quot;height:250px;&quot; /&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+			&lt;img src=&quot;/img/computationalgraphic/cg5.png&quot; alt=&quot;Mountain View&quot; style=&quot;height:250px;float:right;&quot; /&gt;
+		&lt;/td&gt;
+		&lt;td&gt;
+			&lt;img src=&quot;/img/computationalgraphic/cg6.png&quot; alt=&quot;Mountain View&quot; style=&quot;height:250px;&quot; /&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;
+			&lt;img src=&quot;/img/computationalgraphic/cg7.png&quot; alt=&quot;Mountain View&quot; style=&quot;height:250px;float:right;&quot; /&gt;
+		&lt;/td&gt;
+		&lt;td&gt;
+			&lt;img src=&quot;/img/computationalgraphic/cg8.png&quot; alt=&quot;Mountain View&quot; style=&quot;height:250px;&quot; /&gt;
+		&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;date&quot;&gt;Date&lt;/h4&gt;
+
+&lt;p&gt;March 2013&lt;/p&gt;
+
+&lt;h3 id=&quot;see-on-github&quot;&gt;See on GitHub&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/V1LL0/final_project_cg&quot;&gt;https://github.com/V1LL0/final_project_cg&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;authors-and-contributors&quot;&gt;Authors and Contributors&lt;/h3&gt;
+
+&lt;p&gt;This Project is developed by &lt;a href=&quot;https://github.com/V1LL0&quot;&gt;@V1LL0&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;contacts&quot;&gt;Contacts&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#118;&amp;#046;&amp;#099;&amp;#101;&amp;#115;&amp;#116;&amp;#097;&amp;#114;&amp;#101;&amp;#108;&amp;#108;&amp;#105;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;&amp;#118;&amp;#046;&amp;#099;&amp;#101;&amp;#115;&amp;#116;&amp;#097;&amp;#114;&amp;#101;&amp;#108;&amp;#108;&amp;#105;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&lt;/a&gt;&lt;/p&gt;
+</description>
+				<pubDate>Fri, 01 Mar 2013 00:00:00 +0100</pubDate>
+				<link>/computational%20graphic/2013/03/01/computationalgraphic.html</link>
+				<guid isPermaLink="true">/computational%20graphic/2013/03/01/computationalgraphic.html</guid>
+			</item>
+		
+	</channel>
+</rss>

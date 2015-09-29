@@ -1,35 +1,29 @@
-# Site wide configuration
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-title: V1LL0 Projects Gallery
-description: The purpose of this page is to show to you the projects in which i contributed.
-logo: # 120x120 px default image used for Twitter summary card
-teaser: fish.jpg # 400x250 px default teaser image used in image archive grid
-locale:
-url: https://V1LL0.github.io #http://0.0.0.0:4000
-
-# Jekyll configuration
-
-sass:
-    sass_dir: _sass
-    style: compressed
-permalink: /:categories/:title/
-markdown: kramdown
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
 highlighter: pygments
-gems:
-  - jekyll-sitemap
+markdown: kramdown
+disqus: dbyll
+google_analytics: dbyll
 
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Valerio Cestarelli's University Projects
 
-# Site owner
-owner:
-  name:
-  email:
-  twitter:
-  google:
-    ad-client: 
-    ad-slot: 
-  bio: 
-  avatar: bio-photo.jpg # 160x160 px image for author byline
-disqus-shortname:
+description: Portfolio
+author:
+  name: Valerio Cestarelli
+  email: v.cestarelli@gmail.com
+  github: v1ll0
+  twitter: MassimoX90
+  linkedin: valeriocestarelli
 
+categories_path: categories.html
+tags_path: tags.html
 
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
+BASE_PATH:
